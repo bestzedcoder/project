@@ -1,0 +1,64 @@
+{
+  "songs": [
+    {
+      "name": "Blinding Lights",
+      "artist": "The Weeknd",
+      "image_url": "https://example.com/blinding_lights.jpg",
+      "song_url": "project3/assets/music/BlindingLights8DAudio-TheWeeknd-6892334.mp3"
+    },
+    {
+      "name": "Shape of You",
+      "artist": "Ed Sheeran",
+      "image_url": "https://example.com/shape_of_you.jpg",
+      "song_url": "https://example.com/shape_of_you.mp3"
+    },
+    {
+      "name": "Levitating",
+      "artist": "Dua Lipa",
+      "image_url": "https://example.com/levitating.jpg",
+      "song_url": "https://example.com/levitating.mp3"
+    },
+    {
+      "name": "Peaches",
+      "artist": "Justin Bieber",
+      "image_url": "https://example.com/peaches.jpg",
+      "song_url": "https://example.com/peaches.mp3"
+    },
+    {
+      "name": "Drivers License",
+      "artist": "Olivia Rodrigo",
+      "image_url": "https://example.com/drivers_license.jpg",
+      "song_url": "https://example.com/drivers_license.mp3"
+    },
+    {
+      "name": "Bad Habits",
+      "artist": "Ed Sheeran",
+      "image_url": "https://example.com/bad_habits.jpg",
+      "song_url": "https://example.com/bad_habits.mp3"
+    },
+    {
+      "name": "Save Your Tears",
+      "artist": "The Weeknd",
+      "image_url": "https://example.com/save_your_tears.jpg",
+      "song_url": "https://example.com/save_your_tears.mp3"
+    },
+    {
+      "name": "Stay",
+      "artist": "The Kid LAROI, Justin Bieber",
+      "image_url": "https://example.com/stay.jpg",
+      "song_url": "https://example.com/stay.mp3"
+    },
+    {
+      "name": "Montero (Call Me By Your Name)",
+      "artist": "Lil Nas X",
+      "image_url": "https://example.com/montero.jpg",
+      "song_url": "https://example.com/montero.mp3"
+    },
+    {
+      "name": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "image_url": "https://example.com/good_4_u.jpg",
+      "song_url": "https://example.com/good_4_u.mp3"
+    }
+  ]  
+}

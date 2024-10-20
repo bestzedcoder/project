@@ -1,0 +1,183 @@
+@media screen and (max-width: 1200px) {
+  .left-section {
+    width: 90px;
+  }
+  .left-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .left-section .sidebar .item {
+    justify-content: center;
+  }
+
+  .left-section .sidebar .item h3,
+  .left-section .sign-out h3 {
+    display: none;
+  }
+
+  .left-section .sidebar .item i,
+  .left-section .sign-out i {
+    font-size: 2.6rem;
+  }
+
+  .main .quick-access {
+    justify-content: space-between;
+  }
+
+  .main .quick-access .item {
+    width: 23%;
+  }
+  .main .quick-access .item i {
+    font-size: 3.6rem;
+  }
+
+  .main .quick-access .item h5 {
+    font-size: 1.6rem;
+  }
+
+  .main .quick-access .item p,
+  .right-section .profile .info .account p {
+    font-size: 1.2rem;
+  }
+
+  .right-section .widgets .disk {
+    height: 270px;
+  }
+
+  .right-section .widgets .disk .progress .progress-bar {
+    width: 120px;
+    height: 120px;
+  }
+
+  .right-section .widgets .disk .info h5 {
+    font-size: 1.8rem;
+  }
+
+  .right-section .widgets .bottom button {
+    font-size: 1.7rem;
+    padding: 12px;
+  }
+
+  .right-section .widgets .bottom .premium .title h5 {
+    font-size: 1.7rem;
+  }
+
+  .right-section .widgets .bottom .premium .title i {
+    font-size: 2.6rem;
+  }
+
+  .right-section .widgets .bottom .premium p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .left-section {
+    position: absolute;
+    width: 160px;
+    left: -160px;
+    z-index: 1000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .left-section .sidebar .item {
+    justify-content: start;
+  }
+
+  .left-section .sidebar .item h3,
+  .left-section .sign-out h3 {
+    display: block;
+  }
+
+  .left-section .sidebar .item i,
+  .left-section .sign-out i {
+    font-size: 2.2rem;
+  }
+
+  .main,
+  .right-section {
+    padding: 15px;
+  }
+
+  .main .header {
+    gap: 10px;
+  }
+
+  .main .header .icon-btns i#menu-btn {
+    display: block;
+  }
+
+  .main .quick-access .item p {
+    text-align: center;
+  }
+
+  .main table tbody tr td.name,
+  .main table tbody tr td.extension,
+  .main table tbody tr td.size {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .main {
+    padding: 26px 15px 0;
+  }
+
+  .main .header {
+    justify-content: start;
+  }
+
+  .main .header .search {
+    width: 30%;
+  }
+
+  .right-section .profile {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  .right-section .widgets {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .right-section .widgets .disk {
+    width: 48%;
+  }
+
+  .right-section .widgets .bottom {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .right-section .widgets .bottom button {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    padding: 100px 15px 0;
+  }
+
+  .main .header .search {
+    width: 68%;
+  }
+
+  .right-section .profile {
+    width: 94%;
+  }
+
+  .right-section .widgets .disk .info h5 {
+    font-size: 1.4rem;
+  }
+
+  .right-section .widgets .disk .info p {
+    font-size: 14px;
+  }
+}
